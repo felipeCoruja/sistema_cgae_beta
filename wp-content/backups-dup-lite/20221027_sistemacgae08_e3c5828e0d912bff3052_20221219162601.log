@@ -1,0 +1,73 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 12/19/2022 16:26
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.0
+WORDPRESS:	6.1
+PHP INFO:	8.0.7 | SAPI: apache2handler
+SERVER:		Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.7 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 20MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20221027_sistemacgae08_e3c5828e0d912bff3052_20221219162601_database.sql
+SQL FILE SIZE: 5.34MB (5596256)
+SQL FILE TIME: 2022-12-19 16:26:35
+SQL RUNTIME: 7.05 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/xampp/htdocs/modelos/sistema-cgae
+ARCHIVE FILE: 20221027_sistemacgae08_e3c5828e0d912bff3052_20221219162601_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	216.79MB
+STATS:	Dirs 1,816 | Files 9,832
+SQL ADDED: 20221027_sistemacgae08_e3c5828e0d912bff3052_20221219162601_database.sql
+ZipArchive Object
+(
+    [lastId] => 11647
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 11648
+    [filename] => C:\xampp\htdocs\modelos\sistema-cgae\wp-content\backups-dup-lite\tmp\20221027_sistemacgae08_e3c5828e0d912bff3052_20221219162601_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 11647
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 73.13MB
+ARCHIVE RUNTIME: 159.42 sec.
+MEMORY STACK: 24MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 5.34MB
+INSTALLER FILE: 73.36KB
+ARCHIVE FILE: 75.06MB 
+EXPECTED FILE/DIRECTORY COUNT: 11,648
+ACTUAL FILE/DIRECTORY COUNT: 11,647
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[9]
+TOTAL PROCESS RUNTIME: 169.73 sec.
+PEAK PHP MEMORY USED: 26MB
+DONE PROCESSING => 20221027_sistemacgae08 12/19/2022 16:29
+

@@ -1,0 +1,70 @@
+#sessaoForm-turma{
+    width: 70%;    
+    margin-left: 15%;
+    padding:0;
+}
+
+#sessaoForm{
+    width: 70%;    
+    margin-left: 15%;
+    padding:0;
+}
+.col-sm-4{
+    padding: 1px;
+}
+.col-sm-4 input{
+    width:100%;
+}
+
+.border{
+    border-style:solid;
+}
+
+.c{
+    background-color:silver;
+    padding-bottom:20px;
+    border-radius:20px;
+}
+.color-bk-cad-aluno{
+    background-color:#DEDEDE;
+    padding-top:30px;
+    padding-bottom:30px;
+
+}
+
+.b{
+    background-color:white;
+}
+
+.text-area{
+    /* width:100%; */
+    resize: none;
+    /* background-color:blue; */
+
+}
+
+.spaceCol{
+    margin-top:2px;
+}
+.display-none{
+    display:none;
+}
+.visibility-hidden{
+    visibility: hidden;
+}
+
+.display-block{
+    display:block;
+}
+
+.cor1{
+    background-color:red;
+}
+
+.cor2{
+    background-color:green;
+}
+
+.modal{
+    margin-top:20px; 
+}

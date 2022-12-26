@@ -1,0 +1,696 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 07:31:37
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |WINNT
+PHP VERSION_________: 8.0.7                                 |8.0.7
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.0.7 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.7
+DOC ROOT____________: "C:/xampp/htdocs/modelos/sistema-cgae"
+REQUEST URL_________: "http://localhost/modelos/sistema-cgae"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/modelos/sistema-cgae"
+URL_NEW_____________: "http://localhost/modelos/sistema-cgae"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/modelos/sistema-cgae/20220921_sistemacgae_beta01_[HASH]_20221025180727_archive.zip"
+ARCHIVE SIZE________: 49.17MB
+CREATED_____________: 2022-10-25 18:07:27
+WP VERSION__________: 6.0.3
+DUP VERSION_________: 1.5.0
+LICENSE_____________: Free version
+DB VERSION__________: 10.4.19
+DB FILE SIZE________: 9.17MB
+DB TABLES___________: 26
+DB ROWS_____________: 2122
+URL HOME____________: http://localhost/modelos/sistema-cgae
+URL CORE____________: http://localhost/modelos/sistema-cgae
+URL CONTENT_________: http://localhost/modelos/sistema-cgae/wp-content
+URL UPLOAD__________: http://localhost/modelos/sistema-cgae/wp-content/uploads
+URL PLUGINS_________: http://localhost/modelos/sistema-cgae/wp-content/plugins
+URL MU PLUGINS______: http://localhost/modelos/sistema-cgae/wp-content/mu-plugins
+URL THEMES__________: http://localhost/modelos/sistema-cgae/wp-content/themes
+PATH HOME___________: C:/xampp/htdocs/modelos/sistema-cgae
+PATH ABS____________: C:/xampp/htdocs/modelos/sistema-cgae
+PATH WPCONFIG_______: C:/xampp/htdocs/modelos/sistema-cgae
+PATH WPCONTENT______: C:/xampp/htdocs/modelos/sistema-cgae/wp-content
+PATH UPLOADS________: C:/xampp/htdocs/modelos/sistema-cgae/wp-content/uploads
+PATH PLUGINS________: C:/xampp/htdocs/modelos/sistema-cgae/wp-content/plugins
+PATH MUPLUGINS______: C:/xampp/htdocs/modelos/sistema-cgae/wp-content/mu-plugins
+PATH THEMES_________: C:/xampp/htdocs/modelos/sistema-cgae/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "localhost/modelos/sistema-cgae/"
+
+PLUGINS
+PLUGIN [SLUG:add-actions-and-filters/add-actions-and-filters.php][ON:false]  Add Shortcodes Actions And Filters
+PLUGIN [SLUG:advanced-custom-fields/acf.php                    ][ON:true ]  Advanced Custom Fields
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:acf-frontend-form-element/acf-frontend.php        ][ON:true ]  Frontend Admin for ACF
+PLUGIN [SLUG:happy-elementor-addons/plugin.php                 ][ON:true ]  Happy Elementor Addons
+PLUGIN [SLUG:profile-builder/index.php                         ][ON:false]  Profile Builder
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\ctrls\ctrl.base.php:227][DELTA:   3.65524]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\ctrls\ctrl.base.php:227][DELTA:   3.07498]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00021]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00031]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/modelos/sistema-cgae"
+--------------------------------------
+LOG-TIME[DELTA:   0.14639]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00108]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00903]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.07253]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00189]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00645]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00315]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00039]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00029]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00385]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00202]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.19995]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00199]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00954]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00032]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00267]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00984]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/modelos/sistema-cgae"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 07:32:36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: restore single site
+BLOG NAME___________: "Sistema CGAE"
+HOME URL NEW________: "http://localhost/modelos/sistema-cgae"
+SITE URL NEW________: "http://localhost/modelos/sistema-cgae/"
+CONTENT URL NEW_____: "http://localhost/modelos/sistema-cgae/wp-content"
+UPLOAD URL NEW______: "http://localhost/modelos/sistema-cgae/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/modelos/sistema-cgae/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/modelos/sistema-cgae/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/modelos/sistema-cgae"
+SITE PATH NEW_______: "C:/xampp/htdocs/modelos/sistema-cgae/"
+CONTENT PATH NEW____: "C:/xampp/htdocs/modelos/sistema-cgae/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/modelos/sistema-cgae/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/modelos/sistema-cgae/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/modelos/sistema-cgae/wp-content/mu-plugins"
+ARCHIVE ACTION______: "removewpfiles"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "original"
+OTHER CONFIG________: "original"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/modelos/sistema-cgae/dup-installer"
+	FILE: "C:/xampp/htdocs/modelos/sistema-cgae/20220921_sistemacgae_beta01_[HASH]_20221025180727_installer-backup.php"
+	FILE: "C:/xampp/htdocs/modelos/sistema-cgae/20220921_sistemacgae_beta01_[HASH]_20221025180727_archive.zip"
+	FILE: "C:/xampp/htdocs/modelos/sistema-cgae/installer.php"
+	FILE: "C:/xampp/htdocs/modelos/sistema-cgae/dup-installer-bootlog__909a8da-25180727.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20220921_sistemacgae_beta01_[HASH]_20221025180727_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+REMOVE WP FILES
+LOG-TIME RESET TIME
+REMOVE FILES
+REMOVE FOLDER "C:/xampp/htdocs/modelos/sistema-cgae/wp-content"
+REMOVE FOLDER "C:/xampp/htdocs/modelos/sistema-cgae/wp-content/uploads"
+REMOVE FOLDER "C:/xampp/htdocs/modelos/sistema-cgae/wp-content/plugins"
+REMOVE FOLDER "C:/xampp/htdocs/modelos/sistema-cgae/wp-content/mu-plugins"
+LOG-TIME[DELTA:   0.00987]  MESSAGE:FOLDERS REMOVED
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0080 sec. - Files processed: 1,604 of 7,784
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1604
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/modelos/sistema-cgae"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0115 sec. - Files processed: 2,338 of 7,784
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2338
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/modelos/sistema-cgae"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0067 sec. - Files processed: 3,219 of 7,784
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3219
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/modelos/sistema-cgae"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0317 sec. - Files processed: 3,894 of 7,784
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3894
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/modelos/sistema-cgae"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0622 sec. - Files processed: 4,630 of 7,784
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4630
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/modelos/sistema-cgae"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0855 sec. - Files processed: 5,235 of 7,784
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5235
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/modelos/sistema-cgae"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1135 sec. - Files processed: 6,025 of 7,784
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6025
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/modelos/sistema-cgae"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0066 sec. - Files processed: 6,850 of 7,784
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6850
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/modelos/sistema-cgae"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1658 sec. - Files processed: 7,781 of 7,784
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7781
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/modelos/sistema-cgae"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 8383
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 07:33:34 - RUNTIME: 58.1452 sec. - Files processed: 7,784 of 7,784
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 07:33:35
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "cgae_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "cgae_actionscheduler_actions"____________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: cgae_actionscheduler_actions]
+TABLE "cgae_actionscheduler_claims"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: cgae_actionscheduler_claims]
+TABLE "cgae_actionscheduler_groups"_____________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: cgae_actionscheduler_groups]
+TABLE "cgae_actionscheduler_logs"_______________________[ROWS:      25] [EXTRACT|REPLACE] [INST NAME: cgae_actionscheduler_logs]
+TABLE "cgae_addonlibrary_addons"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: cgae_addonlibrary_addons]
+TABLE "cgae_addonlibrary_categories"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: cgae_addonlibrary_categories]
+TABLE "cgae_commentmeta"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: cgae_commentmeta]
+TABLE "cgae_comments"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: cgae_comments]
+TABLE "cgae_duplicator_packages"________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: cgae_duplicator_packages]
+TABLE "cgae_e_events"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: cgae_e_events]
+TABLE "cgae_fea_submissions"____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: cgae_fea_submissions]
+TABLE "cgae_links"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: cgae_links]
+TABLE "cgae_options"____________________________________[ROWS:     263] [EXTRACT|REPLACE] [INST NAME: cgae_options]
+TABLE "cgae_postmeta"___________________________________[ROWS:    1638] [EXTRACT|REPLACE] [INST NAME: cgae_postmeta]
+TABLE "cgae_posts"______________________________________[ROWS:     296] [EXTRACT|REPLACE] [INST NAME: cgae_posts]
+TABLE "cgae_tablesome_event_log"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: cgae_tablesome_event_log]
+TABLE "cgae_tablesome_records"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: cgae_tablesome_records]
+TABLE "cgae_tablesome_table_7"__________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: cgae_tablesome_table_7]
+TABLE "cgae_termmeta"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: cgae_termmeta]
+TABLE "cgae_terms"______________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: cgae_terms]
+TABLE "cgae_term_relationships"_________________________[ROWS:      13] [EXTRACT|REPLACE] [INST NAME: cgae_term_relationships]
+TABLE "cgae_term_taxonomy"______________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: cgae_term_taxonomy]
+TABLE "cgae_usermeta"___________________________________[ROWS:      30] [EXTRACT|REPLACE] [INST NAME: cgae_usermeta]
+TABLE "cgae_users"______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: cgae_users]
+TABLE "cgae_wpforms_tasks_meta"_________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: cgae_wpforms_tasks_meta]
+TABLE "turma"___________________________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: turma]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.19 -- Build Server: 10.4.19
+FILE SIZE:	dup-database__[HASH].sql (4.4MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+NO GENERAL QUERY FIXES
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	239
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "cgae_actionscheduler_actions"____________________[ROWS:    10]
+TABLE "cgae_actionscheduler_claims"_____________________[ROWS:     0]
+TABLE "cgae_actionscheduler_groups"_____________________[ROWS:     2]
+TABLE "cgae_actionscheduler_logs"_______________________[ROWS:    25]
+TABLE "cgae_addonlibrary_addons"________________________[ROWS:     0]
+TABLE "cgae_addonlibrary_categories"____________________[ROWS:     0]
+TABLE "cgae_commentmeta"________________________________[ROWS:     0]
+TABLE "cgae_comments"___________________________________[ROWS:     1]
+TABLE "cgae_duplicator_packages"________________________[ROWS:     2]
+TABLE "cgae_e_events"___________________________________[ROWS:     0]
+TABLE "cgae_fea_submissions"____________________________[ROWS:     1]
+TABLE "cgae_links"______________________________________[ROWS:     0]
+TABLE "cgae_options"____________________________________[ROWS:   263]
+TABLE "cgae_postmeta"___________________________________[ROWS:  1638]
+TABLE "cgae_posts"______________________________________[ROWS:   296]
+TABLE "cgae_tablesome_event_log"________________________[ROWS:     0]
+TABLE "cgae_tablesome_records"__________________________[ROWS:     0]
+TABLE "cgae_tablesome_table_7"__________________________[ROWS:    10]
+TABLE "cgae_term_relationships"_________________________[ROWS:    13]
+TABLE "cgae_term_taxonomy"______________________________[ROWS:     4]
+TABLE "cgae_termmeta"___________________________________[ROWS:     0]
+TABLE "cgae_terms"______________________________________[ROWS:     4]
+TABLE "cgae_usermeta"___________________________________[ROWS:    30]
+TABLE "cgae_users"______________________________________[ROWS:     1]
+TABLE "cgae_wpforms_tasks_meta"_________________________[ROWS:     5]
+TABLE "turma"___________________________________________[ROWS:     6]
+
+INSERT DATA RUNTIME: 4.1695 sec.
+STEP-2 COMPLETE @ 07:33:39 - RUNTIME: 4.1700 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 07:33:40
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+REMOVE CURRENT PACKAGE IN BACKUP
+CLEANUP CURRENT PACKAGE STATUS ID 2
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/modelos/sistema-cgae/wp-config.php
+Retained original entry htaccess target:C:/xampp/htdocs/modelos/sistema-cgae/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://localhost/modelos/sistema-cgae/"
+	UPDATE DB_NAME ""bdcgae""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	
+RESTORE BACKUP MODE: SKIP OTHER WP-CONFIGS UPDATE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:33:40 - RUNTIME: 0.2456 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[C:\xampp\htdocs\modelos\sistema-cgae\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.33786]  MESSAGE:END RENDER PAGE
